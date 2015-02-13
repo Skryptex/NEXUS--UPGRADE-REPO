@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nexus version v1.0.0.0-g32a928e-hobo (2015-02-13 15:42:24 +0000)
+Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+Startup time: 02/13/15 16:11:23
+Default data directory /root/.nexus
+Used data directory /root/.nexus/testnet2
+dbenv.open LogDir=/root/.nexus/testnet2/database ErrorFile=/root/.nexus/testnet2/db.log
+Bound to [::]:9223
+Bound to 0.0.0.0:9223
+Loading block index...
+CBlock(hash=0000a85186729d8e788b7aeecdda09b5ea6db137c26fb611855085242f5c4f10, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=3a4fc4283d04f50d16503c1bb01bf9bef7ea8598609d9446a44cf90707c99291, nTime=1423600000, nBits=1f00ffff, nNonce=174443, vtx=1, vchBlockSig=)
+  Coinbase(hash=3a4fc4283d, nTime=1423600000, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f27196e657875732061726520476f21202031343233363030303030)
+    CTxOut(empty)
+  vMerkleTree: 3a4fc4283d 
+block.GetHash() == 0000a85186729d8e788b7aeecdda09b5ea6db137c26fb611855085242f5c4f10
+block.hashMerkleRoot == 3a4fc4283d04f50d16503c1bb01bf9bef7ea8598609d9446a44cf90707c99291
+block.nTime = 1423600000 
+block.nNonce = 174443 
