@@ -42,6 +42,8 @@ static const unsigned int PROTOCOL_SWITCH_TIME = 1423603000; // 20 Jun 2013 00:0
 
 static const unsigned int REWARD_SWITCH_TIME = 1423599900; // 25 May 2013 00:00:00
 
+static const unsigned int POS_REWARD_SWITCH_TIME = 1423875000; //remake-today-run
+
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
